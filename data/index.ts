@@ -11,7 +11,7 @@ export const gridItems = [
         title: "I prioritize client collaboration, fostering open communication ",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-        imgClassName: "w-full h-full absolute",
+        imgClassName: "w-full h-full object-cover object-center",
         titleClassName: "justify-end",
         img: "/b1.svg",
         spareImg: "",
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Software Enginnering Freelance",
+        desc: "Creating relevant projects from MERN to recent technologies to expand product development and skills.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+        title: "Software Enginnering Bootcamp thru Hack Reactor",
+        desc: "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Web Design.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        title: "Senior Quality Assurance Inspector",
+        desc: "Processed reports on non-comforming products and communicated the necessary information back to the vendors and prevented recurrences of the same issue. Managed the calibration of measuring equipment, determined calibration intervals, and maintained records of measuring tools so at all points the manufacturing department and customers received accurate products. Implemented and maintained the inspection space utilizing 5S methods for improved workflow.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Quality Assurance Inspector",
+        desc: "Inspected raw material and manufactured parts according to their respective prints. Communicated with different departments regarding the passing and failures based on the ispection results.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
